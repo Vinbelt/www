@@ -47,7 +47,7 @@ a:hover{
 /* Zonas */
 .header{
     position: absolute;
-    height: 20%;
+    height: 19%;
     top: -10px;
     left: 0px;
     padding-left: 2%;
@@ -55,11 +55,12 @@ a:hover{
     width: 100%;
     background-color: rgb(52, 107, 52);
     background: linear-gradient(180deg, rgb(52, 107, 52) 0%, rgb(37, 77, 37) 100%);
+    z-index: 2;
 }
 .container{
     background-color: rgb(108, 139, 108);
     height: 80%;
-    width: 100%;
+    width: 99%;
     position: absolute;
     top:19%;
     left: 0px;
@@ -106,14 +107,14 @@ a:hover{
 
 /*Actividades*/
 .content{
-    left: calc(-3% + 10px);
+    left: calc(-3% + 8px);
     position: relative;
 }
 .actividad{
     padding: 3px;
     display: inline-block;
     width: calc(98vw/6 - 10px);
-    height: 38vw;
+    height: 32vw;
     background-color: rgb(200, 230, 200);
     transition: all 0.3s ease-in-out;
     z-index: 1;
