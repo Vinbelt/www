@@ -1,0 +1,124 @@
+/* Fuentes */
+@font-face {
+    font-family: modak;
+    src: url(../static/fonts/Modak-Regular.ttf);
+}
+@font-face {
+    font-family: fsnow;
+    src: url(../static/fonts/fauxsnow.ttf);
+}
+@font-face {
+    font-family: janda;
+    src: url(../static/fonts/JandaChristmasDoodles.ttf);
+}
+@font-face {
+    font-family: arimo;
+    src: url(../static/fonts/Arimo-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: bbhh;
+    src: url(../static/fonts/BBHHegarty-Regular.ttf);
+}
+.snowflakes{
+    font-family: fsnow;
+}
+.symbols{
+    font-family: janda;
+}
+
+
+/* Elementos Generales */
+html{
+    font-family: arimo;
+}
+
+h1{
+    font-size: 200%;
+}
+
+a{
+    color:white;
+}
+a:hover{
+    color:rgb(136, 214, 133);
+}
+
+
+/* Zonas */
+.header{
+    position: absolute;
+    height: 20%;
+    top: -10px;
+    left: 0px;
+    padding-left: 2%;
+    padding-top: 1%;
+    width: 100%;
+    background-color: rgb(52, 107, 52);
+    background: linear-gradient(180deg, rgb(52, 107, 52) 0%, rgb(37, 77, 37) 100%);
+}
+.container{
+    background-color: rgb(108, 139, 108);
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top:19%;
+    left: 0px;
+    padding-left: 3%;
+    padding-top: 1%;
+    z-index: 2;
+}
+.credits{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    top:100%;
+    height: 10%;
+    width: 100%;
+    border: 15px solid rgb(32, 46, 32);
+    background-color: rgb(32, 46, 32);
+    z-index: 1;
+}
+
+
+/* Elementos especificos */
+#title-text{
+    color:rgb(184, 13, 13);
+    font-family: modak;
+    font-weight: normal;
+    font-size: 400%;
+}
+#logo{
+    height: 48px;
+    font-family: modak;
+    font-weight: normal;
+    font-size: 50%;
+}
+
+#credit-text{
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    width: 20%;
+}
+
+/*Actividades*/
+.content{
+    left: calc(-3% + 10px);
+    position: relative;
+}
+.actividad{
+    padding: 3px;
+    display: inline-block;
+    width: calc(98vw/6 - 10px);
+    height: 38vw;
+    background-color: rgb(200, 230, 200);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+.actividad:hover{
+    transform: scaleX(110%) scaleY(110%);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+}
