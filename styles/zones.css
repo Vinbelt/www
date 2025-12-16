@@ -49,7 +49,6 @@ a:hover{
     color:rgb(136, 214, 133);
 }
 
-
 /* Zonas */
 .header{
     position: absolute;
@@ -65,7 +64,6 @@ a:hover{
 }
 .container{
     background-color: rgb(108, 139, 108);
-    height: 80%;
     width: 99%;
     position: absolute;
     top:19%;
@@ -78,14 +76,12 @@ a:hover{
     position: absolute;
     bottom: 0px;
     left: 0px;
-    top:100%;
     height: 10%;
     width: 100%;
     border: 15px solid rgb(32, 46, 32);
     background-color: rgb(32, 46, 32);
     z-index: 1;
 }
-
 
 /* Elementos especificos */
 #title-text{
@@ -109,34 +105,4 @@ a:hover{
     top: 25%;
     left: 70%;
     width: 20%;
-}
-
-/*Actividades*/
-.content{
-    left: calc(-3% + 8px);
-    position: relative;
-}
-.actividad{
-    padding: 3px;
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
-    top:10px;
-    width: calc(98vw/7 - 11px);
-    height: 39vw;
-    background-color: rgb(200, 230, 200);
-    transition: all 0.3s ease-in-out;
-    z-index: 1;
-}
-.actividad:hover{
-    transform: scaleX(110%) scaleY(110%);
-    box-shadow: 0px 0px 15px 1400px rgba(0,0,0,0.2);
-}
-
-
-.content a{
-    color:black;
-}
-.content a:hover{
-    color:black;
 }
