@@ -170,3 +170,11 @@ a:hover{
     font-size: 120%;
 }
 
+a#back_to_title,
+a#back_to_title:hover,
+a#back_to_title:visited,
+a#back_to_title:active
+a#back_to_title:focus{
+    text-decoration: none !important;
+    color: inherit;
+}
