@@ -7,3 +7,4 @@ Resources: https://coolors.co/palette/5c0000-751717-ba0c0c-ff0000-ffebeb-ecffeb-
 Other colors:
 #93d180
 #71ad5e
+#548f41

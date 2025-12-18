@@ -31,6 +31,9 @@
 html{
     font-family: arimo;
 }
+body{
+    background-color: #93d180;
+}
 
 h1{
     font-size: 200%;
@@ -64,15 +67,46 @@ a:hover{
     z-index: 2;
 }
 .container{
-    background-color: #93d180;
-    height: 89%;
+    min-height: 100%;
     width: 99%;
     position: absolute;
     top:11%;
     left: 0px;
     padding-left: 3%;
     padding-top: 1%;
-    z-index: 2;
+    z-index: 0;
+}
+.menu{
+    position: absolute;
+    display: inline-block;
+    top: 0%;
+    left: 0px;
+    width: 24vw;
+    min-height: 100vh;
+    padding-top: 2%;
+    padding-left: 10px;
+    background-color: #548f41;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.switch{
+    width: 20vw;
+    height: 10vh;
+    font-size: 130%;
+    margin-bottom: 10%;
+    font-family: modak;
+}
+
+.content{
+    position: absolute;
+    display: inline-block;
+    top: 0%;
+    right: 0px;
+    width: 78vw;
+    min-height: 100vh;
+    background-color: #93d180;
+    z-index: 0;
 }
 .credits{
     position: absolute;
@@ -83,7 +117,7 @@ a:hover{
     width: 100%;
     border: 15px solid rgb(32, 46, 32);
     background-color: rgb(32, 46, 32);
-    z-index: 1;
+    z-index: 2;
 }
 
 
@@ -111,8 +145,5 @@ a:hover{
     width: 20%;
 }
 
-/*Actividades*/
-.content{
-    left: calc(-3% + 8px);
-    position: relative;
-}
+/**/
+
