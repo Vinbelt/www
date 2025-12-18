@@ -9,8 +9,11 @@
   padding-left: 2%;
   padding-top: 1%;
   width: 100vw;
-  background-color: #2a850e;
-  background: linear-gradient(180deg, #2a850e 0%, #2d661b 100%);
+  background: linear-gradient(
+    180deg,
+    var(--green-700) 0%,
+    var(--green-800) 100%
+  );
   z-index: 2;
 }
 .container {
@@ -19,7 +22,7 @@
   height: 85vh;
   width: 100vw;
   position: absolute;
-  top: 12.9vh;
+  top: 12.8vh;
   left: calc(-3% + 19px);
   padding-left: 3%;
   padding-top: 1%;
@@ -28,18 +31,17 @@
 .credits {
   position: absolute;
   bottom: 0px;
-  top: 100vh;
+  top: 99vh;
   left: 0px;
   height: 15vh;
   width: 100vw;
-  border: 15px solid rgb(32, 46, 32);
-  background-color: rgb(32, 46, 32);
+  background-color: var(--green-900);
   z-index: 1;
 }
 
 /* Elementos especificos */
 #title-text {
-  color: #ff0000;
+  color: var(--accent);
   font-family: modak;
   font-weight: normal;
   font-size: 350%;
@@ -56,7 +58,7 @@
 }
 
 #credit-text {
-  color: #ecffeb;
+  color: var(--white-100);
   font-weight: bold;
   font-size: 100%;
   position: absolute;
@@ -74,14 +76,14 @@
   top: 10px;
   width: calc(98vw / 7 - 7px);
   height: 79vh;
-  color: #ecffeb;
-  background-color: rgba(113, 173, 94, 0.7);
+  color: var(--white-100);
+  background-color: rgba(var(--card-rgb), 0.7);
   transition: all 0.3s ease-in-out;
   z-index: 1;
   border-radius: 20px;
 }
 .actividad:hover {
   transform: scaleX(110%) scaleY(110%);
-  background-color: rgba(113, 173, 94, 1);
+  background-color: rgba(var(--card-rgb), 1);
   box-shadow: 0px 0px 15px 1400px rgba(0, 0, 0, 0.2);
 }

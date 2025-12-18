@@ -1,5 +1,18 @@
 :root {
-  --max-width: 1200px;
+  --green-900: #202e20;
+  --green-800: #2d661b;
+  --green-700: #2a850e;
+  --green-500: #4d9e34;
+  --green-400: #71ad5e;
+  --green-300: #93d180;
+
+  --accent: #ff0000;
+  --green-muted: #548f41;
+  --white-100: #ecffeb;
+  --danger: #ba0c0c;
+  --text: #0b1a0b;
+
+  --card-rgb: 113, 173, 94;
 }
 /* Fuentes */
 @font-face {
