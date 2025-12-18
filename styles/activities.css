@@ -45,6 +45,14 @@ h2{
     text-align: center;
 }
 
+hr{
+    background-color: black;
+}
+
+p{
+    position: relative;
+}
+
 a{
     color:#ECFFEB;
 }
@@ -95,18 +103,29 @@ a:hover{
     height: 10vh;
     font-size: 130%;
     margin-bottom: 10%;
+    border-radius: 15px;
     font-family: modak;
+    font-weight: normal;
+    color:#cddecc;
+    background-color: #739967;
+}
+
+.switch#on{
+    background-color: #4d9e34;
 }
 
 .content{
-    position: absolute;
+    position: relative;
     display: inline-block;
     top: 0%;
     right: 0px;
-    width: 78vw;
+    width: calc(100vw - 27vw);
     min-height: 100vh;
     background-color: #93d180;
     z-index: 0;
+    padding-top: 3vh;
+    padding-left: 24vw;
+    padding-right: 4vw;
 }
 .credits{
     position: absolute;
@@ -145,5 +164,9 @@ a:hover{
     width: 20%;
 }
 
-/**/
+#ongoing{
+    color:#BA0C0C;
+    font-weight: bold;
+    font-size: 120%;
+}
 
