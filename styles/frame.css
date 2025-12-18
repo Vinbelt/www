@@ -1,0 +1,67 @@
+:root {
+  --max-width: 1200px;
+}
+/* Fuentes */
+@font-face {
+  font-family: modak;
+  src: url(../static/fonts/Modak-Regular.ttf);
+}
+@font-face {
+  font-family: fsnow;
+  src: url(../static/fonts/fauxsnow.ttf);
+}
+@font-face {
+  font-family: janda;
+  src: url(../static/fonts/JandaChristmasDoodles.ttf);
+}
+@font-face {
+  font-family: arimo;
+  src: url(../static/fonts/Arimo-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: bbhh;
+  src: url(../static/fonts/BBHHegarty-Regular.ttf);
+}
+.snowflakes {
+  font-family: fsnow;
+}
+.symbols {
+  font-family: janda;
+}
+
+/* Estilos globales */
+html {
+  font-family: arimo;
+}
+body {
+  background-color: #93d180;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 0;
+  padding: 0.6rem 0;
+  text-align: center;
+}
+
+hr {
+  background-color: black;
+}
+
+a {
+  color: #ecffeb;
+}
+a:hover {
+  color: rgb(136, 214, 133);
+}
+
+.skip_link,
+.skip_link:hover,
+.skip_link:active,
+.skip_link:visited,
+.skip_link:focus {
+  text-decoration: none !important;
+}
