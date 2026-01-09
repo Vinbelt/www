@@ -49,7 +49,7 @@
 
 #title-text::before, #title-text::after{
   content:"N";
-  font-family: fsnow;
+  font-family: fsnow, Arial;
 }
 
 
