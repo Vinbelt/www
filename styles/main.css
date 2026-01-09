@@ -48,7 +48,7 @@
 }
 
 #title-text::before, #title-text::after{
-  content="N";
+  content:"N";
   font-family: fsnow;
 }
 
