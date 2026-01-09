@@ -46,6 +46,13 @@
   font-weight: normal;
   font-size: 350%;
 }
+
+#title-text::before, #title-text::after{
+  content:"N";
+  font-family: fsnow;
+}
+
+
 #logo {
   height: 48px;
   font-family: modak;
